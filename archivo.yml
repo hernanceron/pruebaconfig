@@ -5,7 +5,8 @@ spring:
     obfuscation:
       active: true
       specific-sensitive-fields:
-        - name: 'amount'
+        - #vacio
+          name: 'amount'
           config[0]:
             minLength: 1
 channel:
