@@ -5,6 +5,7 @@ spring:
   atlas:
     obfuscation:
       active: true
+      specific-sensitive-fields:
         -
           name: 'amount'
           config[0]:
